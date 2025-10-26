@@ -16,15 +16,11 @@ var app = builder.Build();
 
 app.UseCors();
 
-// GET all tasks
+// GET tasks
 app.MapGet("/api/tasks", async (AppDbContext db) =>
     await db.Tasks.ToListAsync()
 );
 
-// GET task by id
-app.MapGet("/api/tasks/{id}", async (int id, AppDbContext db) =>
-    await db.Tasks.FindAsync(id) is server.Task task ? Results.Ok(task) : Results.NotFound()
-);
 
 // POST new task
 app.MapPost("/api/tasks", async (server.Task task, AppDbContext db) =>
