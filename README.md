@@ -9,7 +9,7 @@ Objetivo: permitir criar, listar, editar e deletar tarefas (CRUD) através de en
 
 ## Stack principal
 
-- C# / .NET (recomendado .NET 7 ou 8)
+- C# / .NET (recomendado .NET 9)
 - Entity Framework Core (EF Core) para mapeamento objeto-relacional
 - SQLite (arquivo local, ex: `todos.db`)
 - HTML, CSS e JavaScript para o cliente
