@@ -19,10 +19,6 @@ Objetivo: permitir criar, listar, editar e deletar tarefas (CRUD) através de en
 - `server/` — API ASP.NET Core Web API (projeto C#)
 - `client/` — frontend estático (ex: `index.html`, `style.css`, `app.js`) que consome a API
 
-> Observação: no repositório atual as pastas `server/` e `client/` estão vazias; este README documenta o que será implementado.
-
 ## Licença
 
 Este projeto pode ser disponibilizado sob MIT (ou outra licença, conforme preferir).
-
-a
